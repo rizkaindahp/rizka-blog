@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link bootstrap 4.3.1 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- link css sendiri -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Blog</title>
+
+    <!-- link font awesome  -->
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+     <!-- Navigation -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="/img/logo.png" width="70" height="70" class="d-inline-block align-center" alt="">
+              Rizka Blog
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+              <a class="nav-item nav-link active" href="/index.html">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="/aboutme.html">About Me</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- jumbotron  -->
+      <section id="jumbotron">
+        <div class="jumbotron jumbotron-fluid mb-0">
+          <div class="container">
+            <h2 id="text-ubah" class="display-4">Welcome to <span style="color: rgb(0, 183, 255);">My Blog</span></h2>
+          </div>
+        </div>
+      </section>
+
+      <!-- notifikasi -->
+      <div class="container">
+        <section id="notification">
+          <div class="list-notification justify-content-between">
+            <p class="text-light">Selamat Datang!</p>
+            <h4 class="icon-close">&times;</h4>
+          </div>
+          <div class="list-notification justify-content-between">
+            <p class="text-light">Terimakasih Sudah Berkunjung!!</p>
+            <h4 class="icon-close">&times;</h4>
+          </div>
+        </section>
+
+        <!-- isi post  -->
+      <section class="container">
+        <div class="pb-3">
+          <h3 class="judul">Berita</h3>
+        </div>
+         <!-- buat row  -->
+        <div class="row justify-content-center">
+          <!-- buat col  -->
+          <div id="post-preview" class="col-12 col-md-8 post-preview">
+             <!-- Post preview  -->
+          </div>
+
+          <!-- buat col ke 2 atau sidebar -->
+          <div class="col-12 col-md-4" style="max-width: 300px;">
+            <aside class="list-group">
+                <a href="#" class="list-group-item list-group-item-action active">
+                  <div class="d-flex w-100 justify-content-center">
+                    <h5 class="mb-2">Berita Terpopuler</h5>
+                  </div>
+                </a>
+                <a href="/shopee-artikel.html" class="list-group-item list-group-item-action">
+                  <div class="d-flex w-100 justify-content-between">
+                     <p class="mb-1">Sudah Tahu Kelebihan Shopee dibanding E-commerce Lainnya?</p>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <small class="text-muted">Shopee E-commerce</small>
+                    <small class="text-muted">3 minutes ago</small>
+                  </div>
+                </a>
+                <a href="/tokopedia-artikel.html" class="list-group-item list-group-item-action">
+                  <div class="d-flex w-100 justify-content-between">
+                     <p class="mb-1">Tokopedia Sukses Gaet BLACKPINK dan BTS, Ini Sosok di Balik Layarnya</p>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <small class="text-muted">Tokopedia</small>
+                    <small class="text-muted">1 hours ago</small>
+                  </div>
+                </a>
+                <a href="/bukalapak-artikel.html" class="list-group-item list-group-item-action">
+                  <div class="d-flex w-100 justify-content-between">
+                     <p class="mb-1">KliknClean Bermitra dengan Bukalapak</p>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <small class="text-muted">Bukalapak</small>
+                    <small class="text-muted">1 days ago</small>
+                  </div>
+                </a>
+                <a href="/lazada-artikel.html" class="list-group-item list-group-item-action">
+                  <div class="d-flex w-100 justify-content-between">
+                     <p class="mb-1">Pegadaian & Lazada Logistics Kerja Sama Bantu Penghasilan buat Kurir</p>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <small class="text-muted">Lazada</small>
+                    <small class="text-muted">2 days ago</small>
+                  </div>
+                </a>
+            </aside>
+          </div>
+        </div>
+      </section>
+      </div>
+
+
+    </main>
+
+    <!-- Bagian footer  -->
+    <div class="pt-4">
+      <footer class="footer-text text-center">
+        <p> Copyright &copy;2021 by Rizka Indah Puspita</p>
+      </footer>
+    </div>
+
+
+    <!-- link jquery  -->
+    <script src="/js/jquery-v3.6.0.js"></script>
+
+    <!-- javascrip dan jquery bootsrap 4.3.1 -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- js sendiri -->
+    <script src="/js/custom.js"></script>
+</body>
+</html>
